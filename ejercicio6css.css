@@ -1,0 +1,9 @@
+.boton:hover {
+color: white;
+background-color: green;
+column-span: "Hecho";
+}
+
+.boton::after {
+    content: "Pasa por encima";
+}
