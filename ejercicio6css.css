@@ -1,9 +1,12 @@
-.boton:hover {
-color: white;
-background-color: green;
-column-span: "Hecho";
-}
-
 .boton::after {
     content: "Pasa por encima";
+}
+
+.boton:hover {
+    color: white;
+    background-color: green;
+    }
+    
+.boton:hover::after {
+    content: "Hecho" ;
 }
