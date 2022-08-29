@@ -1,0 +1,144 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.parte1 {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google {
+    background-color: #167ee6;
+    border: none;
+    border-radius: 5px;
+    height: 40px;   
+    display: flex;
+    align-items: center;
+}
+
+.google:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.google img {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.twitter {
+    background-color: #eee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.twitter:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.twitter img {
+    background-color: #eee;
+    width: 20px;
+}
+
+.separador {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separador hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separador span {
+    color: #8b8b8b;
+}
+
+.parte2 {
+    display: flex;
+    width: 100%;
+}
+
+label {
+    width: 100%;
+    font-weight: 500;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 100%;
+    background-color: #e6e6e7;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 12pt;
+    margin: 20px 0;
+}
+
+label input:focus {
+    background-color: white;
+    border: solid 1px #f3f3f4;
+    box-shadow: 0 0 4px #eb50ff4f;
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+}
+
+#checkbox {
+    width: 20px;
+}
+
+.checkbox-label span {
+    font-weight: 400;
+}
+
+.crear {
+    background-color: #EA4C89;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0;
+    height: 40px;  
+    width: 40%;
+
+}
+
+.crear:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+
