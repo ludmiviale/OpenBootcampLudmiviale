@@ -1,0 +1,19 @@
+.btn-modern {
+    margin: 50px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+.btn-modern:hover {
+    animation: traslation 0.4s ease-in-out;
+    border-bottom: 2px solid rgb(88, 88, 88);
+    border-right: 2px solid rgb(88, 88, 88);
+    color: rgb(31, 31, 97);
+    background-color: rgb(210, 222, 233);
+}
+
+@keyframes traslation {
+    100% {
+        transform: translateY(-5px);
+    }
+}
