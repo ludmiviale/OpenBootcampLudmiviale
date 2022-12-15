@@ -1,7 +1,11 @@
-import {suma, multiplica} from "./Modulos/controller"
+const boton = document.querySelector("#btn1")
 
-const sum = suma(1, 2)
-console.log(sum)
+console.log(boton)
 
-const multiplic = multiplica(4, 5)
-console.log(multiplic)
+boton.addEventListener("click", () => {
+  alert("click en el botón")
+})
+
+$("#btn2").click(() => {
+    console.log("Hola, estoy utilizando JQuery")
+})
